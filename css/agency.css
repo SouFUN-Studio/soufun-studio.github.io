@@ -52,6 +52,9 @@ h6 {
 .bg-light-gray {
   background-color: #eeeeee;
 }
+.bg-blue-xord{
+  background-color: #88C3F5;
+}
 .bg-darkest-gray {
   background-color: #222222;
 }
@@ -337,6 +340,7 @@ header .intro-text .intro-heading {
 
 
 section {
+
   padding: 100px 0;
 }
 section h2.section-heading {
