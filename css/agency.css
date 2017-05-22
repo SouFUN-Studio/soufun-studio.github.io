@@ -13,6 +13,9 @@ body {
 .text-primary {
   color: #73B09D;
 }
+.text-primary-xord{
+  color: #CC6903;
+}
 p {
   font-size: 14px;
   line-height: 1.75;
