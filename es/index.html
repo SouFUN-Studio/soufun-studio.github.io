@@ -1,656 +1,339 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
+	<title>SouFUN Studio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="EndGam Gaming Magazine Template">
+	<meta name="keywords" content="endGam,gGaming, magazine, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Favicon -->
+	<link href="img/soufun-ico64.png" rel="shortcut icon"/>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Empresa dedicada al desarrollo de videojuegos y apps moviles, realidad virtual VR">
-    <meta name="author" content="Roberto Tores J., German David Perez M.">
-    <meta name="keywords" content="videojuegos,aplicaciones,moviles,desarrollo,realidad virtual,VR,apps,entretenimiento">
-    <link rel="shortcut icon" type="image/png" href="../img/soufun-ico64.png">
-    <title>SouFUN Studio</title>
+	<!-- Google Font -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/magnific-popup.css"/>
+	<link rel="stylesheet" href="css/animate.css"/>
 
-    <!-- Theme CSS -->
-    <link href="../css/agency.min.css" rel="stylesheet">
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
 
 </head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
 
-<body id="page-top" class="index">
+	<!-- Header section -->
+	<header class="header-section">
+		<div class="header-warp">
+			<div class="header-social d-flex justify-content-end">
+				<p>Síguenos:</p>
+				<!--<a href="#"><i class="fa fa-pinterest"></i></a> -->
+				<a href="https://www.facebook.com/soufunstudio"><i class="fa fa-facebook"></i></a>
+				<a href="https://www.twitter.com/soufunstudio"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/soufunstudio"><i class="fa fa-instagram"></i></a>
+				<!--<a href="#"><i class="fa fa-behance"></i></a>-->
+			</div>
+			<div class="header-bar-warp d-flex">
+				<!-- site logo -->
+				<a href="home.html" class="site-logo">
+					<img src="./img/soufun-letters.png" alt="">
+				</a>
+				<nav class="top-nav-area w-100">
+					<div class="user-panel">
+						<a href="">Acceder</a> / <a href="">Registrar</a>
+					</div>
+					<!-- Menu -->
+					<ul class="main-menu primary-menu">
+						<li><a href="home.html">Inicio</a></li>
+						<li><a href="games.html">Juegos</a>
+							<ul class="sub-menu">
+								<li><a href="game-single.html">Xplode or Die</a></li>
+							</ul>
+						</li>
+						<li><a href="review.html">Reseñas</a></li>
+						<li><a href="blog.html">Noticias</a></li>
+						<li><a href="contact.html">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header section end -->
 
-    <!-- Navigation -->
-    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menú <i class="fa fa-bars"></i>
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="../img/soufun-letters.png" height="30px" alt="logo-mini"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Servicios</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portafolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Acerca</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">Quienes somos</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contacto</a>
-                    </li>
-                    <li>
-                      <a class="page-scroll" type="button" data-toggle="dropdown">Idioma<span class="caret"></span>
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li><a href="http://soufunstudio.com">Ingles</a></li>
-                        <li><a href="#">Español</a></li>
-                        <li><a href="http://soufunstudio.com/jp">Japonés</a></li>
-                      </ul>
-                  </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
-    </nav>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <div class="intro-text">
-                <div class="intro-lead-in"></div>
-                <div class="intro-heading"></div>
-                <a href="#services" class="page-scroll btn btn-xl">Adelante</a>
-            </div>
-        </div>
-    </header>
+	<!-- Hero section -->
+	<section class="hero-section overflow-hidden">
+		<div class="hero-slider owl-carousel">
+			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-3.jpg">
+				<div class="container">
+					<h2>A jugar!</h2>
+					<p>Hacemos que tus sueños se vuelvan realidad</p>
+					<a href="#" class="site-btn">Leer más  <img src="img/icons/double-arrow.png" alt="#"/></a>
+				</div>
+			</div>
+			<div class="hero-item set-bg d-flex align-items-center justify-content-center text-center" data-setbg="img/slider-bg-2.jpg">
+				<div class="container">
+					<h2>A jugar!</h2>
+					<p>Fusce erat dui, venenatis et erat in, vulputate dignissim lacus. Donec vitae tempus dolor,<br>sit amet elementum lorem. Ut cursus tempor turpis.</p>
+					<a href="#" class="site-btn">Leer más  <img src="img/icons/double-arrow.png" alt="#"/></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Hero section end-->
 
-    <!-- Services Section -->
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Servicios</h2>
-                    <h3 class="section-subheading text-muted">Convertimos tus sueños en realidad</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                      <!-- Game Controller icon by Icons8 -->
-                      <img src="https://png.icons8.com/game-controller/dusk/64" title="Game Controller" width="64" height="64">
-                    </span>
-                    <h4 class="service-heading">Videojuegos</h4>
-                    <p class="text-muted">¿Tienes una gran idea pero no cuentas con el equipo necesario? no te preocupes nosotros la desarrollamos por ti.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                      <!-- Virtual Reality icon by Icons8 -->
-                      <img src="https://png.icons8.com/virtual-reality/color/48" title="Virtual Reality" width="48" height="48">
-                    </span>
-                    <h4 class="service-heading">Recorridos virtuales</h4>
-                    <p class="text-muted">Sabemos que te gusta estar al tanto en la tecnologia por eso, si necesitas un proyecto de realidad vitual nosotros lo llevamos acabo.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                      <!-- Fork Lift icon by Icons8 -->
-                      <img src="https://png.icons8.com/fork-lift/office/60" title="Fork Lift" width="60" height="60">
-                    </span>
-                    <h4 class="service-heading">Proximamente</h4>
-                    <p class="text-muted">Trabajamos muy duro para brindar mas y mejores servicios</p>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portafolio</h2>
-                    <h3 class="section-subheading text-muted">Deja que nuestros proyectos te digan que hacemos.</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <!-- Plus Math icon by Icons8 -->
+	<!-- Intro section -->
+	<section class="intro-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">09.07.19  /  en <a href="">Juegos</a></div>
+						<h3>El juego mas adictivo ahora disponible!</h3>
+						<p>Finalmente se ha publicado el juego mas entretenido y adicitivo para smartphone. Protege a los gelatux en esta divertida aventura....</p>
+						<a href="#" class="read-more">Leer mas  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">11.11.18  /  in <a href="">Playstation</a></div>
+						<h3>Top 5 best games in november</h3>
+						<p>Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum  labore suspendisse ultrices gravida....</p>
+						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="intro-text-box text-box text-white">
+						<div class="top-meta">11.11.18  /  in <a href="">Reviews</a></div>
+						<h3>Get this game at a promo price</h3>
+						<p>Sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida ncididunt ut labore ....</p>
+						<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
 
-<img src="https://png.icons8.com/plus-math/color/48" width="48" height="48">
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/xplode-or-die.png" class="img-responsive" alt="xplode or die imagen">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Xplode or die</h4>
-                        <p class="text-muted">Mobile app</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <!-- Plus Math icon by Icons8 -->
 
-<img src="https://png.icons8.com/plus-math/color/48" width="48" height="48">
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/uam1.png" class="img-responsive" alt="uam edificio b imagen">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Recorrido virtual UAM -I</h4>
-                        <p class="text-muted">VR map</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <!-- Plus Math icon by Icons8 -->
+	<!-- Blog section -->
+	<section class="blog-section spad">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-9 col-lg-8 col-md-7">
+					<div class="section-title text-white">
+						<h2>Latest News</h2>
+					</div>
+					<ul class="blog-filter">
+						<li><a href="#">Racing</a></li>
+						<li><a href="#">Shooters</a></li>
+						<li><a href="#">Strategy</a></li>
+						<li><a href="#">Online</a></li>
+					</ul>
+					<!-- Blog item -->
+					<div class="blog-item">
+						<div class="blog-thumb">
+							<img src="./img/blog/1.jpg" alt="">
+						</div>
+						<div class="blog-text text-box text-white">
+							<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
+							<h3>The best online game is out now!</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+							<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+						</div>
+					</div>
+					<!-- Blog item -->
+					<div class="blog-item">
+						<div class="blog-thumb">
+							<img src="./img/blog/2.jpg" alt="">
+						</div>
+						<div class="blog-text text-box text-white">
+							<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
+							<h3>The best online game is out now!</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+							<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+						</div>
+					</div>
+					<!-- Blog item -->
+					<div class="blog-item">
+						<div class="blog-thumb">
+							<img src="./img/blog/3.jpg" alt="">
+						</div>
+						<div class="blog-text text-box text-white">
+							<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
+							<h3>The best online game is out now!</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eius-mod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Lorem ipsum dolor sit amet, consecte-tur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.....</p>
+							<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-3 col-lg-4 col-md-5 sidebar">
+					<div id="stickySidebar">
+						<div class="widget-item">
+							<h4 class="widget-title">Trending</h4>
+							<div class="trending-widget">
+								<div class="tw-item">
+									<div class="tw-thumb">
+										<img src="./img/blog-widget/1.jpg" alt="#">
+									</div>
+									<div class="tw-text">
+										<div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
+										<h5>The best online game is out now!</h5>
+									</div>
+								</div>
+								<div class="tw-item">
+									<div class="tw-thumb">
+										<img src="./img/blog-widget/2.jpg" alt="#">
+									</div>
+									<div class="tw-text">
+										<div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
+										<h5>The best online game is out now!</h5>
+									</div>
+								</div>
+								<div class="tw-item">
+									<div class="tw-thumb">
+										<img src="./img/blog-widget/3.jpg" alt="#">
+									</div>
+									<div class="tw-text">
+										<div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
+										<h5>The best online game is out now!</h5>
+									</div>
+								</div>
+								<div class="tw-item">
+									<div class="tw-thumb">
+										<img src="./img/blog-widget/4.jpg" alt="#">
+									</div>
+									<div class="tw-text">
+										<div class="tw-meta">11.11.18  /  in <a href="">Games</a></div>
+										<h5>The best online game is out now!</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="widget-item">
+							<div class="categories-widget">
+								<h4 class="widget-title">categories</h4>
+								<ul>
+									<li><a href="">Games</a></li>
+									<li><a href="">Gaming Tips & Tricks</a></li>
+									<li><a href="">Online Games</a></li>
+									<li><a href="">Team Games</a></li>
+									<li><a href="">Community</a></li>
+									<li><a href="">Uncategorized</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="widget-item">
+						<a href="#" class="add">
+							<img src="./img/add.jpg" alt="">
+						</a>
+					</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Blog section end -->
 
-<img src="https://png.icons8.com/plus-math/color/48" width="48" height="48">
-                            </div>
-                        </div>
-                        <img src="../img/portfolio/game.png" class="img-responsive" alt="imagen juego">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Roller Ball</h4>
-                        <p class="text-muted">PC Videogame</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- About Section -->
-    <section id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Acerca</h2>
-                    <h3 class="section-subheading text-muted">Nuestra historia</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="../img/about/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2015</h4>
-                                    <h4 class="subheading">El inicio de un sueño</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Como fanáticos de los videojuegos empezamos el sueño de construir nuestros juegos y transmitir nuestras ideas y mundos que siempre quisimos por medio de videojuegos.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="../img/about/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Julio 2015</h4>
-                                    <h4 class="subheading"> Nuestro primer proyecto</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Cuando iniciamos este sueño nos llenamos de fantásticas ideas, pero sabíamos que teníamos que elegir una de ellas, no fue fácil pero al final decidimos crear Xplode or die como nuestra primer aventura.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="../img/about/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Diciembre 2015</h4>
-                                    <h4 class="subheading">Continúa el aprendizaje</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Siendo aún estudiantes decidimos presentar como un proyecto el Recorrido virtual UAM-Iztapalapa, que aunque no pertenece directamente a SouFUN Studio si es parte importante de nuestro inicio en la realidad virtual, ya que contará con integración a periféricos de VR.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="../img/about/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>Septiembre 2016</h4>
-                                    <h4 class="subheading">El sueño se vuelve realidad</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Hasta este momento solo éramos un grupo de amigos jugando a ser desarrolladores, pero es en esta fecha que todo se vuelve real, y empezamos a trabajar como un verdadero estudio.</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Se parte
-                                    <br>de nuestra
-                                    <br>Historia!</h4>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+	<!-- Intro section -->
+	<section class="intro-video-section set-bg d-flex align-items-end " data-setbg="./img/promo-bg.jpg">
+		<a href="https://www.youtube.com/watch?v=uFsGy5x_fyQ" class="video-play-btn video-popup"><img src="img/icons/solid-right-arrow.png" alt="#"></a>
+		<div class="container">
+			<div class="video-text">
+				<h2>Promo video of the game</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+			</div>
+		</div>
+	</section>
+	<!-- Intro section end -->
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Nuestro asombroso equipo</h2>
-                    <h3 class="section-subheading text-muted">Fundadores</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="../img/team/Usuario-Vacio-300x300.png" class="img-responsive img-circle" alt="">
-                        <h4>G. David Perez Morales</h4>
-                        <p class="text-muted">Lider de Modelado 3D</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="team-member">
-                        <img src="../img/team/Usuario-Vacio-300x300.png" class="img-responsive img-circle" alt="">
-                        <h4>Roberto Torres Jiménez</h4>
-                        <p class="text-muted">Lider de Programación</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p class="large text-muted">Las grandes ideas tienen pequeños comienzos.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="team-member">
-                        <img src="../img/team/18835782_1407829962631246_7849214933604562820_n.jpg" class="img-responsive img-circle" alt="">
-                        <h4>L. Elizabet Librado Nuñez</h4>
-                        <p class="text-muted">Directora de arte</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="team-member">
-                    <img src="../img/team/Usuario-Vacio-300x300.png" class="img-responsive img-circle" alt="">
-                    <h4>Nayeli Lara Vargas</h4>
-                    <p class="text-muted">Interprete</p>
-                    <ul class="list-inline social-buttons">
-                        <li><a href="#"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="../img/logos/blender-logo.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="../img/logos/Unity-Logo.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <a href="#">
-                        <img src="../img/logos/photoshop-logo.png" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
+	<!-- Featured section -->
+	<section class="featured-section">
+		<div class="featured-bg set-bg" data-setbg="img/featured-bg.jpg"></div>
+		<div class="featured-box">
+			<div class="text-box">
+				<div class="top-meta">11.11.18  /  in <a href="">Games</a></div>
+				<h3>The game you’ve been waiting  for is out now</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquamet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vestibulum posuere porttitor justo id pellentesque. Proin id lacus feugiat, posuere erat sit amet, commodo ipsum. Donec pellentesque vestibulum metus...</p>
+				<a href="#" class="read-more">Read More  <img src="img/icons/double-arrow.png" alt="#"/></a>
+			</div>
+		</div>
+	</section>
+	<!-- Featured section end-->
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">La innovación viene de concer gente en los pasillos. -Steve Jobs</h3>
 
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; Your Website 2016</span>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline social-buttons">
-                        <li><a href="https://twitter.com/SouFUNStudio"><i class="fa fa-twitter"></i></a>
-                        </li>
-                        <li><a href="https://www.facebook.com/soufunstudio/"><i class="fa fa-facebook"></i></a>
-                        </li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
-                        </li>
-                        <li><a href="#">Terms of Use</a>
-                        </li>
-                        <li><a href="https://icons8.com">Icon pack by Icons8</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </footer>
+	<!-- Newsletter section -->
+	<section class="newsletter-section">
+		<div class="container">
+			<h2>Subscribe to our newsletter</h2>
+			<form class="newsletter-form">
+				<input type="text" placeholder="ENTER YOUR E-MAIL">
+				<button class="site-btn">subscribe  <img src="img/icons/double-arrow.png" alt="#"/></button>
+			</form>
+		</div>
+	</section>
+	<!-- Newsletter section end -->
 
-    <!-- Portfolio Modals -->
-    <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Xplode or die Go Here -->
-                                <h2>Xplode or Die</h2>
-                                <p class="item-intro text-muted"></p>
-                                <img class="img-responsive img-centered" src="../img/portfolio/xord-main-menu.png" alt="">
-                                <p>Ayuda a los gelatux a sobrevivir del ataque de las bombas. App descargable para Android y iOS </p>
-                                <p>
-                                    <strong>Disponible próximamente para Android y iOS </strong>completamente gratis. Para más información y detalles del juego entra a <a href="../xplodeordie/">xplode-or-die</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2017</li>
-                                    <li>Categoría: Aplicación móvil</li>
-                                </ul>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!-- Footer section -->
+	<footer class="footer-section">
+		<div class="container">
+			<div class="footer-left-pic">
+				<img src="img/footer-left-pic.png" alt="">
+			</div>
+			<div class="footer-right-pic">
+				<img src="img/footer-right-pic.png" alt="">
+			</div>
+			<a href="#" class="footer-logo">
+				<img src="./img/logo.png" alt="">
+			</a>
+			<ul class="main-menu footer-menu">
+				<li><a href="">Home</a></li>
+				<li><a href="">Games</a></li>
+				<li><a href="">Reviews</a></li>
+				<li><a href="">News</a></li>
+				<li><a href="">Contact</a></li>
+			</ul>
+			<div class="footer-social d-flex justify-content-center">
+				<a href="#"><i class="fa fa-pinterest"></i></a>
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-dribbble"></i></a>
+				<a href="#"><i class="fa fa-behance"></i></a>
+			</div>
+			<div class="copyright"><a href="">Colorlib</a> 2018 @ All rights reserved</div>
+		</div>
+	</footer>
+	<!-- Footer section end -->
 
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="../img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">algo</p>
-                                <img class="img-responsive img-centered" src="../img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/jquery.sticky-sidebar.min.js"></script>
+	<script src="js/jquery.magnific-popup.min.js"></script>
+	<script src="js/main.js"></script>
 
-    <!-- Portfolio Modal 4 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="../img/portfolio/golden-preview.png" alt="">
-                                <p>Start Bootstrap's Agency theme is based on Golden, a free PSD website template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Golden is a modern and clean one page web template that was made exclusively for Best PSD Freebies. This template has a great portfolio, timeline, and meet your team sections that can be easily modified to fit your needs.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/golden-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 5 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="../img/portfolio/escape-preview.png" alt="">
-                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Escape is a one page web template that was designed with agencies in mind. This template is ideal for those looking for a simple one page solution to describe your business and offer your services.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 6 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="close-modal" data-dismiss="modal">
-                    <div class="lr">
-                        <div class="rl">
-                        </div>
-                    </div>
-                </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-8 col-lg-offset-2">
-                            <div class="modal-body">
-                                <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="../img/portfolio/dreams-preview.png" alt="">
-                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful template that’s designed with the Bootstrap framework in mind.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
-                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- jQuery -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-
-    <!-- Contact Form JavaScript -->
-    <script src="../js/jqBootstrapValidation.js"></script>
-    <script src="../js/contact_me.js"></script>
-
-    <!-- Theme JavaScript -->
-    <script src="../js/agency.min.js"></script>
-
-</body>
-
+	</body>
 </html>
